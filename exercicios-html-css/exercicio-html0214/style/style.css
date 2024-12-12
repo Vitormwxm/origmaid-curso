@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    width: 90vw;
+}
+
+.title {
+    font-weight: bolder;
+    text-align: center;
+    color: #111;
+}
+
+div {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #111;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+ p {
+    color: #b2b2b2;
+}
+
+span{
+    color: #febe01;
+}
+
+button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #febe01;
+    font-weight: 500;
+    font-size: 16px;
+}
