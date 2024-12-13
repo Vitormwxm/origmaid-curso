@@ -1,0 +1,16 @@
+body{
+    background-color:#f7f7f7 ;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+}
