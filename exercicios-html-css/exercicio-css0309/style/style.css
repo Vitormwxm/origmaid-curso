@@ -68,7 +68,12 @@ header {
     border-radius: 4px;
 }
 
-.deco {
+.button:hover{
+    background-color: #c62011;
+}
+
+.conteudo-1::before {
+    content: "";
     width: 60px;
     height: 5px;
     background-color: #ee2211;
@@ -79,7 +84,6 @@ header {
 
 .vantagens {
     display: flex;
-    
     align-items: center;
     font-size: 60px;
 }
