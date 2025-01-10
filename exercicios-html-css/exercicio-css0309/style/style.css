@@ -27,6 +27,11 @@ header {
     background-color: #fff;
     padding: 10px 20px;
     margin: 5px;
+    border: solid 2px #fff;
+}
+
+.menu li a:hover{
+    border: solid 2px #ee2211;
 }
 
 .conteudo {
@@ -46,14 +51,14 @@ header {
 }
 
 .conteudo-1 .title {
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: 600;
     margin: 100px 40px 10px 40px;
 }
 
 .conteudo-1 .paragrafo {
    text-align: end;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 10px 40px 10px 40px;
 
 }
@@ -163,4 +168,73 @@ header {
 
 .footer p {
     padding: 40px;
+}
+
+@media ( max-width: 900px){
+
+    .logo {
+        margin-bottom: 4rem;
+        width: 200px;
+    }
+
+    .conteudo {
+        display: flex;
+       
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul a{
+        display:block;
+        padding: 1vw 50vw;
+        margin: 0px;
+    
+    }
+    .conteudo-1 {
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .conteudo-1 .title {
+        font-size: 1.87rem;
+        font-weight: 600;
+        margin: 50px 40px 10px 40px;
+    }
+
+    .conteudo-1 .paragrafo {
+        text-align: start;
+         font-size: 1.25rem;
+         max-width: 50%;
+         margin: 10px 40px 10px 40px;
+    }
+
+    .conteudo-1::before {
+        display: none;
+    }
+
+    .vantagens {
+        display: flex;
+        align-items: center;
+        font-size: 60px;
+    }
+
+    .vantagens .title {
+        text-align: end;
+        font-weight: bolder;
+        margin: 80px;
+        color: #c6c6c6;
+        letter-spacing: 1.9px;
+    }
+
+    .funcionalidades .item p {
+        max-width: 50%;
+    }
 }
