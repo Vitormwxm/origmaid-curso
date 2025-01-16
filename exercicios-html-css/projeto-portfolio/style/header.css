@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.header-menu a {
+    text-decoration: none;
+    display:block;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #141414;
+}
+
+@media (max-width: 800px ){
+    .header{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .header a {
+        padding: 10px 20px;
+        background-color: #f5f5f5;
+    }
+}
