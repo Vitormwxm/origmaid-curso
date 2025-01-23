@@ -1,0 +1,35 @@
+.footer {
+    background-color: #000;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 80px 0px;
+    align-items: center;
+}
+
+.title-footer {
+    color: #CCCCCC;
+    font-size: 24px;
+    width: 80%;
+}
+
+.foorter-list li {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.foorter-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container span {
+    color:#CCCCCC ;
+}
