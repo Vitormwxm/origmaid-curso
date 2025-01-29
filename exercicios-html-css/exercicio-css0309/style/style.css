@@ -1,10 +1,29 @@
+:root {
+    --cor-primaria: #e21;
+    --cor-primaria-escura: #c62011;
+    --fundo-1: #f7f7f7;
+    --fundo-2: #fff;
+    --texto: #000;
+}
+
+
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --fundo-1:#111;
+        --fundo-2: #000;
+        --texto: #fff;  
+    }
+}
+
 body{
-    background-color:#f7f7f7 ;
+    background-color:var(--fundo-1) ;
     display: grid;
     gap: 60px;
     justify-items: center;
     margin-top: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--texto);
 }
 
 header {
@@ -23,15 +42,15 @@ header {
 
 .menu li a {
     text-decoration: none;
-    color: #000;
-    background-color: #fff;
+    color: var(--texto);
+    background-color: var(--fundo-2);
     padding: 10px 20px;
     margin: 5px;
-    border: solid 2px #fff;
+    border: solid 2px var(--fundo-2);
 }
 
 .menu li a:hover{
-    border: solid 2px #ee2211;
+    border: solid 2px var(--cor-primaria);
 }
 
 .conteudo {
@@ -43,7 +62,7 @@ header {
 .conteudo-1 {
     display: flex;
     position: relative;
-    background-color: #fff;
+    background-color: var(--fundo-2);
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
@@ -65,7 +84,7 @@ header {
 
 .conteudo-1 .button {
     margin: 10px 40px 10px 40px;
-    background-color: #ee2211;
+    background-color: var(--cor-primaria);
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -82,14 +101,14 @@ header {
 }
 
 .button:hover{
-    background-color: #c62011;
+    background-color: var(--cor-primaria-escura);
 }
 
 .conteudo-1::before {
     content: "";
     width: 60px;
     height: 5px;
-    background-color: #ee2211;
+    background-color: var(--cor-primaria);
     position: absolute;
     top: 50px;
     right: -30px;
@@ -112,7 +131,7 @@ header {
 .funcionalidades {
    
     padding: 40px;
-    background-color: #fff;
+    background-color: var(--fundo-2);
 }
 
 .funcionalidades .item {
@@ -135,7 +154,7 @@ header {
 }
 
 .item:hover::before {
-    background-color: #ee2211;
+    background-color: var(--cor-primaria);
 }
 
 
@@ -160,7 +179,7 @@ header {
 
 .footer {
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: var(--fundo-2)fff;
     width: 100%;
     text-align: center;
     margin: 0;
@@ -197,7 +216,7 @@ header {
     .conteudo-1 {
         display: flex;
         position: relative;
-        background-color: #fff;
+        background-color: var(--fundo-2);
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
