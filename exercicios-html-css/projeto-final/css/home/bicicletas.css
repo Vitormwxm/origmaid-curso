@@ -23,6 +23,10 @@
     
 }
 
+.bicicletas-listas-item li a > img {
+    width: 100%;
+}
+
 .bicicletas-listas-item li {
     flex: 1;
     min-width: 280px;
