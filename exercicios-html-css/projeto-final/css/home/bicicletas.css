@@ -59,4 +59,8 @@
     .bicicletas-listas-item {
         gap: 16px;
     }
+
+    .bicicletas h2 {
+        font-size: 48px;
+    }
 }
