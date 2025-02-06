@@ -1,0 +1,31 @@
+.termos-bg {
+    background: var(--cor-11);
+}
+
+.termos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    margin-bottom: 120px;
+}
+
+.termos-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.termos-info h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Poppins' , serif;
+
+}
+
+.termos-info p {
+    width: 78ch;
+    margin-bottom: 20px;
+    font-family: 'Roboto' , serif;
+    font-size: 18px;
+    line-height: 1.33;
+}
