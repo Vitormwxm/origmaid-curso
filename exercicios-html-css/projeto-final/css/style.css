@@ -14,3 +14,6 @@
 @import './seguros/seguros.css';
 @import './global/footer.css';
 @import './termos/termos.css';
+@import './bicicletas/bicicletaspag.css';
+
+@import './seguros/segurospag.css';

@@ -1,0 +1,70 @@
+.bicicletaspg-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.bicicletaspg-content-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+    padding: 60px 0px 60px 0px;
+}
+
+.bicicletaspg-content-item.magic-might {
+    background: linear-gradient(to right,  var(--cor-0) 20% , var(--cor-12) 20%);
+}
+
+.bicicletaspg-content-gerais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bicicletaspg-image img {
+    border-radius: 0px;
+}
+
+.bicicletaspg-content-gerais h2 {
+    font-size: 36px;
+    font-family: 'Roboto' , serif;
+}
+
+.bicicletaspg-content-gerais h2::before{
+    content: "";
+    width: 12px;
+    height: 8px;
+    display: block;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
+}
+
+.bicicletaspg-content-gerais p {
+    font-size: 18px;
+    font-family: 'Roboto' , serif;
+    color: var(--cor-8);
+}
+
+.bicicletaspg-content-gerais h2 {
+    grid-column: 1/-1;
+}
+.bicicletaspg-content-gerais p {
+    grid-column: 1/-1;
+}
+
+.bicicletaspg-item li{
+ display: flex;   
+ gap: 12px;
+ align-items: center;
+ font-size: 18px;
+ font-family: 'Poppins' , serif;
+ color: var(--cor-8);
+
+}
+.bicicletaspg-item li + li{
+    margin-top: 16px;
+}
+
+.bicicletaspg-content-gerais a {
+    max-width: max-content;
+    align-self: flex-end;
+}
