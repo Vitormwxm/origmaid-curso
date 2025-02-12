@@ -18,3 +18,8 @@
 
 @import './seguros/segurospag.css';
 @import './bicicletas/bicicletanimbus.css';
+@import './bicicletas/pedale-seguro.css';
+
+/*contato */
+@import './contato/contato.css';
+@import './contato/form.css';

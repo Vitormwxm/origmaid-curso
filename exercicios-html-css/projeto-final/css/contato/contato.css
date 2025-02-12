@@ -1,0 +1,66 @@
+.contato-bg {
+    background: linear-gradient(var(--cor-11) 300px , var(--cor-0) 0px);
+    color: white;
+}
+
+.contato-container {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    
+   
+}
+
+.contato-infos {
+    background: var(--cor-12);
+    border-radius: 4px 0px 0px 4px;
+    padding: 60px;
+}
+
+.contato-infos h2 {
+    margin-bottom: 60px;
+}
+
+.contato-infos .enderecos {
+    margin-bottom: 32px;
+    background: url(../../img/local.svg) no-repeat;
+    padding-left: 28px;
+    color: var(--cor-4);
+}
+.contato-infos .enderecos li {
+    margin-bottom: 8px;
+}
+
+.contato-infos .emails ul {
+    background: url(../../img/email.svg) no-repeat;
+    padding-left: 28px;
+    color: var(--cor-4);
+}
+
+.contato-infos .emails li {
+    margin-bottom: 8px;
+}
+
+.contato-infos .telefone {
+    background: url(../../img/telefone.svg) no-repeat;
+    padding-left: 28px;
+    color: var(--cor-4);
+    margin-bottom: 64px;
+}
+
+.contato-redes-sociais {
+    display: flex;
+    gap: 32px;
+    padding-left: 28px;
+    
+}
+
+.contato-form {
+    padding: 60px;
+    background: var(--cor-0);
+    color: black;
+}
+
+
+
+
+
