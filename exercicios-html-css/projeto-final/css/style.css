@@ -23,3 +23,5 @@
 /*contato */
 @import './contato/contato.css';
 @import './contato/form.css';
+
+@import './orcamento/orcamento.css';
