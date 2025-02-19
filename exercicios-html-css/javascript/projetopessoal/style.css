@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(38, 38, 156);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    background: blue;
+}
+
+.container div {
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 14px;
+    background: white;
+    color: black;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
