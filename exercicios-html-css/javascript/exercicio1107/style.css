@@ -1,0 +1,19 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 12px 24px;
+}
+
+body div {
+    font-size: 100px;
+}
