@@ -5,6 +5,7 @@
 @import './util/components.css';
 @import './util/tipografia.css';
 @import './util/cores.css';
+@import './util/animacoes.css';
 
 @import './home/bicicletas.css';
 @import './home/tecnlogia.css';
