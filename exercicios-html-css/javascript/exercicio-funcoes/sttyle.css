@@ -1,0 +1,35 @@
+body .principal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: max-content;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+.vermelho {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+.amarelo {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.verde {
+    background: green;
+    width: 200px;
+    height: 200px;
+}
+
+.span2 {
+    max-width: 620px;
+    margin-top: 10px;
+    margin: 0 auto;
+    grid-column: 1 / -1;
+    width: auto;
+}
