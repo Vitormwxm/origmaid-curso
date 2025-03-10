@@ -87,9 +87,22 @@ body {
 }
 
 .animais-lista {
-    height: 370px;
+    height: 360px;
     overflow-y: scroll;
+    margin-right: 10px;
     grid-column: 2;
+}
+.animais-lista::-webkit-scrollbar{
+    width: 18px;
+
+}
+.animais-lista::-webkit-scrollbar-thumb {
+    background: #fb5;
+    border-left: 4px solid #faf6ed;
+    border-right: 4px solid #faf6ed;
+}
+.animais-lista::-webkit-scrollbar-track {
+    background: #ffffff;
 }
 
 .animais-descricao section {
@@ -147,6 +160,7 @@ body {
 .copy {
     grid-column: 3 / 5;
     margin-bottom: 2rem;
+    margin-top: 60px;
     background: #fb5;
 }
 
