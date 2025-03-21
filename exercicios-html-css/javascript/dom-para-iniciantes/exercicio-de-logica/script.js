@@ -20,7 +20,12 @@ console.log("offsetLeft " + menu.offsetLeft);
 function aumetarDistancia(elemento, valor ) {
     let menuRect = elemento.getBoundingClientRect();
     let distancia = menuRect.height + valor;
-    elemento.style.setProperty("padding-top" , distancia + "px")
+    elemento.style.setProperty("margin-top" , distancia + "px")
 };
 
-aumetarDistancia(menu , 350);
+function click() {
+    console.log("clicado")
+}
+
+menu.addEventListener('click', click)
+
