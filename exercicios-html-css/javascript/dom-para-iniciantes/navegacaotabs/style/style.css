@@ -169,26 +169,76 @@ body {
     font-family: monospace;
 }
 
-.js-tabContent section {
+.js .js-tabContent section {
     display: none;
 }
 
-.js-tabContent section.ativo {
+.js .js-tabContent section.ativo {
     display: block;
     animation: show .5s forwards ;
+}
+.js .js-accordionList dd {
+   animation: slideUp .5s forwards;
+   display: none;
+}
+
+.js .js-accordionList dd.ativo {
+    display: block;
+    animation: slideDown .5s forwards;
+    
+ }
+
+.js .js-accordionList dt::after {
+    content: "↴";
+    width: 10px;
+    height: 10px;
+   
+}
+
+.js .js-accordionList dt.ativo::after {
+    content: "↺";
+    width: 10px;
+    height: 10px;
+   
 }
 
 @keyframes show {
     from {
         opacity: 0;
-        transform: translate3d(-40px , 0px  0px);
+        transform: translate3d(-30px , 0px  , 0px);
     }
 
     to {
         opacity: 1;
-        transform: translate3d(0px , 0px  0px);
+        transform: translate3d(0px , 0px  , 0px);
     }
 }
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+    } 
+
+    to {
+        opacity: 1;
+        max-height: 40px;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 1;
+        max-height: 40px;
+    } 
+
+    to {
+        opacity: 0;
+        max-height: 0;
+    }
+}
+
+
 
 @media (max-width: 700px) {
     body {
