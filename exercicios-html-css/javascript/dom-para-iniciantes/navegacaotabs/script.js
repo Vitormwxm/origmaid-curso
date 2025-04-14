@@ -32,7 +32,7 @@ function initAcordionList() {
     const titleAccordion = document.querySelectorAll(".js-accordionList dt")
     if(titleAccordion.length) {
         titleAccordion[0].classList.add("ativo")
-    titleAccordion[0].nextElementSibling.classList.add("ativo")
+        titleAccordion[0].nextElementSibling.classList.add("ativo")
 
     function activeAccordion() {
         this.classList.toggle("ativo")
@@ -46,5 +46,25 @@ function initAcordionList() {
     }
 
 }   
+
+function InitscrollToView() {
+    const link = document.querySelectorAll('.js-menu a[href^="#"]')
+
+    function scrollToview(event) {
+        event.preventDefault();
+        const href = event.currentTarget.getAttribute("href");
+        const section = document.querySelector(href);
+        
+        section.scrollIntoView({
+            behavior: 'smooth',
+        })
+    }
+
+    link.forEach((item) => {
+        item.addEventListener('click' , scrollToview)
+    })
+}
+
 initNavTab();
 initAcordionList();
+InitscrollToView()
