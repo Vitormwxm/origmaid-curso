@@ -10,7 +10,7 @@ function Carro(marca, preco , parcela ) {
         }
     const taxaAplicada = taxa[parcela] || 1;
     this.marca = marca;
-    this.preco = preco * taxaAplicada;
+    this.preco = preco * taxaAplicada / parcela;
     this.parcela = parcela;
 }
 
